@@ -1,0 +1,9 @@
+@BoLagom.Api_HostAddress = https://localhost:8000
+
+### Hämta alla fastigheter
+GET {{BoLagom.Api_HostAddress}}/api/properties/
+Accept: application/json
+
+### Hämta fastighet baserat på ID
+GET {{BoLagom.Api_HostAddress}}/api/properties/5
+Accept: application/json
