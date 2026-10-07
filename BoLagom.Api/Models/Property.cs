@@ -15,7 +15,7 @@ public class Property
 CREATE TABLE Properties (
   Id,
   Name,
-  Adress,
+  Address,
   PortCode
 )
  */

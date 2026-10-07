@@ -16,8 +16,25 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "name": "", 
-  "address": "test",
+  "name": "Tornet", 
+  "address": "Landskronavägen 1, Helsingborg",
   "portCode": "1234"
 }
 
+### Radera fastighet
+
+DELETE {{BoLagom.Api_HostAddress}}/api/properties/1
+Accept: application/json
+
+
+### Uppdatera fastighet
+
+PUT {{BoLagom.Api_HostAddress}}/api/properties/3
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Gammelstugan",
+  "address": "Kullagatan 10, 252 00 Helsingborg",
+  "portCode": "1234"
+}
