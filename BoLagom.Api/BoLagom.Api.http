@@ -5,5 +5,19 @@ GET {{BoLagom.Api_HostAddress}}/api/properties/
 Accept: application/json
 
 ### Hämta fastighet baserat på ID
-GET {{BoLagom.Api_HostAddress}}/api/properties/5
+
+GET {{BoLagom.Api_HostAddress}}/api/properties/1
 Accept: application/json
+
+### Skapa fastighet
+
+POST {{BoLagom.Api_HostAddress}}/api/properties
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "", 
+  "address": "test",
+  "portCode": "1234"
+}
+

@@ -7,4 +7,15 @@ public class Property
     public int Id { get; set; }
     public string Name { get; set; }
     public string Address { get; set; }
+    // Superhemlig portkod
+    public string PortCode { get; set; }
 }
+
+/*
+CREATE TABLE Properties (
+  Id,
+  Name,
+  Adress,
+  PortCode
+)
+ */
